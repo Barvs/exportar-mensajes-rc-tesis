@@ -1,0 +1,57 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 500px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-top: 0;
+}
+
+h2 {
+  margin-top: 20px;
+}
+
+select,
+input[type="date"],
+button {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.button_common {
+  background-color: #4caf50;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button_common:hover {
+  background-color: #45a049;
+}
+
+.button_export {
+  background-color: #4162e4;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button_export:hover {
+  background-color: #2d52e5;
+}

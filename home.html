@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Exportar Mensajes</title>
+    <link rel="stylesheet" href="style_home.css" />
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Exportar Mensajes</h1>
+
+      <h2>Selecciona el canal</h2>
+      <select id="channelSelect">
+        <option value="canal1">Canal 1</option>
+        <option value="canal2">Canal 2</option>
+        <option value="canal3">Canal 3</option>
+      </select>
+
+      <h2>Selecciona el usuario</h2>
+      <select id="userSelect">
+        <option value="user1">Persona 1</option>
+        <option value="user2">Persona 2</option>
+        <option value="user3">Persona 3</option>
+      </select>
+
+      <h2>Selecciona las fechas</h2>
+      <label for="startDate">Desde:</label>
+      <input type="date" id="startDate" />
+
+      <label for="endDate">Hasta:</label>
+      <input type="date" id="endDate" />
+
+      <h2>Opciones predeterminadas</h2>
+      <button
+        class="button_common"
+        onclick="setToday()"
+        title="Establece la fecha de hoy en los campos de fecha"
+      >
+        Hoy
+      </button>
+      <button
+        class="button_common"
+        onclick="setLastWeek()"
+        title="Establece la fecha de hace una semana hasta hoy"
+      >
+        La última semana
+      </button>
+      <button
+        class="button_common"
+        onclick="setLastMonth()"
+        title="Establece la fecha de hace un mes hasta hoy"
+      >
+        El último mes
+      </button>
+
+      <button
+        class="button_export"
+        onclick="exportMessages()"
+        title="Exporta los mensajes desde el timpo seleccionado"
+      >
+        Exportar
+      </button>
+    </div>
+  </body>
+</html>

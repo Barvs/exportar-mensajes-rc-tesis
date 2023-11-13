@@ -3,12 +3,14 @@ import bodyParser from 'body-parser';
 import { createObjectCsvWriter } from 'csv-writer';
 import fs from 'fs';
 import path from 'path';
+import cors from 'cors';
 
 import { getChannelMembers, getChannels, getGroups, getGroupMembers, getGroupMessages } from './rocketchat/service.js'
 
 const app = express();
 const port = 3000;
 
+app.use(cors());
 app.use(bodyParser.json());
 
 app.get('/rc/get-channels', async (req, res) => {

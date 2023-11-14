@@ -12,6 +12,21 @@ const port = 3000;
 
 app.use(cors());
 app.use(bodyParser.json());
+app.use(express.static(path.resolve('public')));
+
+
+app.get('/', async (req, res) => {
+    const homeView = path.resolve('home.html')
+
+    return res.sendFile(homeView);
+});
+
+app.get('/login', async (req, res) => {
+    const loginView = path.resolve('login.html')
+
+    return res.sendFile(loginView);
+});
+
 
 app.get('/rc/get-channels', async (req, res) => {
     return res.json(await getChannels());

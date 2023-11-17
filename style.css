@@ -1,0 +1,56 @@
+body {
+  background: #1d1a1a;
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url("public/src/Rectangle 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  background: linear-gradient(0deg, #211823 3.25%, #3e2a41 95.84%);
+  padding: 24px;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+h4 {
+  margin-bottom: 20px;
+  color: #fff;
+}
+
+.container input[type="text"],
+.container input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.container button {
+  font-family: "Roboto Mono", monospace;
+  width: 100%;
+  padding: 10px;
+  background-color: #fff;
+  color: #201822;
+  border: none;
+  cursor: pointer;
+  margin-top: 50px;
+}
+
+.container button:hover {
+  background-color: #9d10df;
+  color: #fff;
+}

@@ -10,8 +10,17 @@
     <div class="container">
       <h2>Iniciar sesión</h2>
       <form>
-        <input type="text" placeholder="Usuario" name="username" required />
+        <h4>E-mail</h4>
         <input
+          id="email"
+          type="text"
+          placeholder="Usuario"
+          name="username"
+          required
+        />
+        <h4>Contraseña</h4>
+        <input
+          id="password"
           type="password"
           placeholder="Contraseña"
           name="password"
@@ -20,6 +29,6 @@
         <button type="button" onclick="redirectToHome()">Iniciar sesión</button>
       </form>
     </div>
-    <script src="script.js"></script>
+    <!--script src="script.js"></script-->
   </body>
 </html>

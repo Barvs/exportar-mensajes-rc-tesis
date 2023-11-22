@@ -74,7 +74,7 @@ app.get("/rc/export-group-messages", async (req, res) => {
 
   var group = await getGroupsSingle(groupId);
   var groupName = group.name;
-  const timestamp = `from${fromDate}_to${toDate}`;
+  const timestamp = `from_${fromDate}_to_${toDate}`;
 
   function formatDate(dateString) {
     const date = new Date(dateString);
@@ -107,6 +107,25 @@ app.get("/rc/export-group-messages", async (req, res) => {
   }
 
   return res.json(result);
+});
+
+app.get("/export-list", async (req, res) => {
+  const dirPath = path.resolve(`exports/`);
+  console.log(dirPath);
+  const files = fs.readdirSync(dirPath);
+  console.log(files);
+
+  return res.json(files);
+});
+
+app.get("/download-old-archive", async (req, res) => {
+  const fileName = req.body.fileName || req.query.fileName;
+
+  const filePath = path.resolve(`exports/${fileName}`);
+
+  return res.download(filePath);
+
+  //return res.json(result);
 });
 
 app.listen(port, () => {

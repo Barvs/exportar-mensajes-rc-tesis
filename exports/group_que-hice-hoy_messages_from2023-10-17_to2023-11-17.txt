@@ -1,0 +1,167 @@
+Nombre: Bernardo Velasquez
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 10-11-23
+- Programada promoción Domingo Susushi
+- Programada promoción Lunes a jueves en hamburguesas
+- Carga de imágenes en el hato 
+
+- Arreglo de pantallas y vistas del app, notificaciones
+
+
+Actividades 09-11-23
+- Cambio de Zupper opciones 
+
+- Arreglo de pantallas y vistas del app, muestra de modal calificaciones
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 8-11-2023
+Mensaje: Actividades 08-11-23
+- Cambio de banners 
+
+- Arreglo de funcionalidades cambiando routes por widgets 
+- Ajuste de pantallas del Menú App y detalles de orden
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 6-11-2023
+Mensaje: Actividades 06-11-23
+- Revisión de promociones
+- Generada promo de Lunes a Jueves Susushi
+- Susushi visible y activado, Susushi Cumana no visible 
+
+- Investigación y práctica para conectar admin lite a api
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 3-11-2023
+Mensaje: Actividades 03-11-23
+- Programada promo domingo susushi Cumaná
+- Diseño de banners
+- Actualización de banners
+- Revisión y apertura Masitas Gourmet
+- Configurada Masitas Gourmet para repartidor privado
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 3-11-2023
+Mensaje: Actividades 02-11-23
+- Carga de productos, categoría y variante en Con Amor (Navidad)
+- Cambio de banners 
+- Carga y añadidos Etas a productos Masistas Gourmet
+- Arreglo de Banners
+- No Disponible variante Melexa
+
+Actividades 01-11-23
+- Cargadas y configuradas variantes de Masitas Gourmet
+- Revisión de promo de Malexa y Beepollen
+- Cambio de banners
+- Arreglo de ajustes de peso en productos el Hato 
+
+Actividades 31-10-23
+- Ajustes para correr el app en dispositivo
+- Ajustes de pantallas del Amind Lite
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 30-10-2023
+Mensaje: Actividades 30-10-23
+- Revisión de variantes en Masitas Gourmet
+- Promoción de Susushi en Hamburguesas programadas 
+- Revisión de promos activas 
+
+- Splash Screen terminada
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 27-10-2023
+Mensaje: Actividades 27-10-23
+- Cambio de hora de apertura Hato
+- No disponible producto del Hato
+- Arreglada Promoción de Malexa 10%
+- Arreglo de producto JK
+- Nuevo ETA y añadido a un producto JK
+- Visible Comercio Xoxo
+- Explicación Maria Fernanda de Covers
+- Arreglo de Productos y variables Malexa
+- Cambio de horario Chip a Cookie
+- Promo de Roles Domingo, Susushi Cumaná
+
+
+Actividades 26-10-23
+- Cambio de banner
+- Agregar categorías a los productos de Xoxo
+- Carga de productos Xoxo
+
+- Instalación de Admin en dispositivo físico
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 25-10-2023
+Mensaje: Actividades 25-10-23
+- Cambio de Banners
+- Cambio de ubicación Masitas Gourmet
+- Nuevo horario de Masitas Gourmet
+
+- Funcionalidades de botones en la configuración Admin Lite
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 24-10-2023
+Mensaje: Actividades 24-10-23
+- Revisión de promociones programadas 
+- Revisión y arreglo de precios en Alforno
+
+- Cambio de icon en Admin Lite
+- Investigación para las funcionalidades de la configuración
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 23-10-2023
+Mensaje: Actividades 23-10-23
+- Agregada ubicación de Xoxo
+- Logo Macadamia editado y cargado
+- Horario Macadamia Cargado
+- Edición de Banner Boca Express
+- Cambio de Banners en la mañana
+- Edición de foto para Quiero Pizza
+- Carga de producto e imagen Quiero Pizza
+- Diseño de banner 11:11 Restobar
+- Promoción de pizzas restobar 
+- Carga de cover Macadamia
+- Programada Promoción de Beepollen desde 23 hasta el 31
+- Programada promoción Hamburguesas Restobar Martes
+- Cambio de Banner de tardes
+- Diseño de banner Beepollen Halloween y carga
+- Edición de imágenes Malexa
+- Arreglo y carga de productos e imágenes Malexa
+- Cierre de comercio El Palacio
+- Variantes de Malexa
+
+- Investigación para el splash screen flutter
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 20-10-2023
+Mensaje: Actividades 20-10-23
+- Promoción de Susushi de Lunes a Jueves 
+- Banners cambiados
+- Promoción de Susushi Domingo
+- Banners cambiados en la tarde
+- Cambio de comercios destacados
+-Carga de imagen Dulces caprichos
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 20-10-2023
+Mensaje: Actividades 19-10-23
+- Revisión de Promoción de Beepollen
+- Revisión de Cierre de Comercio Beepollen
+- Correo enviado a administrador de Macadamia Bakery
+- Carga de comercio nuevo XoxoShopcna
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 18-10-2023
+Mensaje: Actividades 18-10-23
+- Promoción Beepollen 19 y 20 configurada
+- Cambio de banners 
+- Revisión de datos de comercio Macadamia Bakery
+
+- Práctica de Flutter
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 18-10-2023
+Mensaje: Actividades 17-10-23
+- Arreglos de categorías en Zupper Market
+- Revisión y arreglos de precios en Zupper Market
+- Practica web
+

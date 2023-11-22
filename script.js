@@ -1,11 +1,8 @@
-//import { group } from "console";
-//import fileName from "./server/index";
-
 function redirectToHome() {
   var email = document.getElementById("email");
-  console.log(email);
+  //console.log(email);
   var password = document.getElementById("password");
-  console.log(password);
+  //console.log(password);
 
   if (
     email.value === "bernardo@manzanares.com.ve" &&
@@ -17,23 +14,6 @@ function redirectToHome() {
   }
 }
 
-// function changeScreen(screenName) {
-//   document.getElementById("screenText").innerHTML =
-//     "Has seleccionado: " + screenName;
-// }
-
-// function exportMessages() {
-//   var selectedChannel = document.getElementById("channelSelect").value;
-//   var startDate = document.getElementById("startDate").value;
-//   var endDate = document.getElementById("endDate").value;
-
-//   // Lógica para exportar los mensajes del canal seleccionado
-//   console.log("Canal seleccionado: " + selectedChannel);
-//   console.log("Fecha de inicio: " + startDate);
-//   console.log("Fecha de fin: " + endDate);
-// }
-
-// Establecer fechas predeterminadas
 var today = new Date().toISOString().split("T")[0];
 
 var yesterday = new Date();
@@ -66,40 +46,6 @@ function setLastMonth() {
   document.getElementById("endDate").value = today;
 }
 
-// const buttons = document.querySelectorAll(".button_common");
-
-// buttons.forEach((button) => {
-//   button.addEventListener("click", (event) => {
-//     const clickedButton = event.target;
-
-//     buttons.forEach((btn) => {
-//       btn.classList.remove("active");
-//     });
-
-//     clickedButton.classList.add("active");
-//   });
-// });
-
-// var xhr = new XMLHttpRequest();
-// xhr.open("GET", "http://localhost:3000/rc/get-groups", true);
-// xhr.onload = function () {
-//   if (xhr.status === 200) {
-//     var response = JSON.parse(xhr.responseText);
-//     var groups = response.groups;
-
-//     var select = document.getElementById("channelSelect");
-
-//     // Generar opciones del select
-//     groups.forEach(function (group) {
-//       var option = document.createElement("option");
-//       option.value = group.id;
-//       option.textContent = group.name;
-//       select.appendChild(option);
-//     });
-//   }
-// };
-// xhr.send();
-
 var xhr = new XMLHttpRequest();
 xhr.open("GET", "http://localhost:3000/rc/get-groups", true);
 xhr.onload = function () {
@@ -109,30 +55,15 @@ xhr.onload = function () {
 
     var select = document.getElementById("channelSelect");
 
-    // Generar opciones del select
     groups.forEach(function (group) {
       var option = document.createElement("option");
       option.value = group.id;
       option.textContent = group.name;
       select.appendChild(option);
     });
-
-    // Establecer opción predeterminada
-    // var defaultOption = "que-hice-hoy";
-    // var defaultChannel = groups.find(function (group) {
-    //   return group.name === defaultOption;
-    // });
-
-    // if (defaultChannel) {
-    //   select.value = defaultChannel.id;
-    // }
   }
 };
 xhr.send();
-
-//Funcion que me devuelve el id del grupo
-
-//var select = document.getElementById("membersSelect");
 
 document.addEventListener("DOMContentLoaded", function () {
   const channelSelect = document.getElementById("channelSelect");
@@ -143,13 +74,9 @@ document.addEventListener("DOMContentLoaded", function () {
 
     apiUrl = `http://localhost:3000/rc/get-group-members?group_id=${channelId}`;
 
-    console.log(apiUrl);
-
     let xhr = new XMLHttpRequest();
-    console.log(xhr);
 
     xhr.open("GET", apiUrl, true);
-    console.log(xhr);
 
     xhr.onload = function () {
       if (xhr.status === 200) {
@@ -160,7 +87,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
         select.innerHTML = '<option value="">Todos</option>';
 
-        // Generar opciones del select
         members.forEach(function (member) {
           var option = document.createElement("option");
           option.value = member.id;
@@ -170,9 +96,6 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     };
     xhr.send();
-
-    // console.log(channelId);
-    // console.log(apiUrl);
   });
 });
 
@@ -189,13 +112,9 @@ function previewMessages() {
 
   let apiUrl = `http://localhost:3000/rc/get-group-messages?group_id=${groupId}&user_id${userId}&from_date=${fromDate}&to_date=${toDate}`;
 
-  console.log(apiUrl);
-
   let xhr = new XMLHttpRequest();
-  console.log(xhr);
 
   xhr.open("GET", apiUrl, true);
-  console.log(xhr);
 
   xhr.onload = function () {
     if (xhr.status === 200) {
@@ -206,8 +125,6 @@ function previewMessages() {
       var boxMenssages = "";
 
       messages.forEach(function (message) {
-        console.log(message);
-
         var arrayName = message.user_name.split(" ");
 
         var initials = `${
@@ -250,73 +167,55 @@ function previewMessages() {
 function exportMessages() {
   var exportButton = document.querySelector(".button_export");
 
-  //exportButton.addEventListener("click", function () {
   var groupId = document.getElementById("channelSelect").value;
   var userId = document.getElementById("membersSelect").value;
   var fromDate = document.getElementById("startDate").value;
   var toDate = document.getElementById("endDate").value;
-
-  // var params = {
-  //   userId: userId === "userAll" ? null : userId,
-  //   fromDate: fromDate ? new Date(fromDate).toISOString() : null,
-  //   toDate: toDate ? new Date(toDate).toISOString() : null,
-  // };
 
   if (userId == "") {
   } else {
     userId = "=" + userId;
   }
 
-  // var apiUrl_mensajes = `http://localhost:3000/rc/get-group-messages?group_id=${groupId}&user_id${userId}&from_date=${fromDate}&to_date=${toDate}`;
-
-  // console.log(apiUrl_mensajes);
-
   var apiUrl = `http://localhost:3000/rc/export-group-messages?group_id=${groupId}&user_id${userId}&from_date=${fromDate}&to_date=${toDate}`;
 
-  console.log(apiUrl);
-
-  // var xhr = new XMLHttpRequest();
-  // xhr.open("POST", apiUrl, true);
-  // xhr.onload = function () {
-  //   if (xhr.status === 200) {
-  //     var response = JSON.parse(xhr.responseText);
-  //     console.log(response);
-  //   }
-  // };
-  // xhr.send();
-
   location.href = apiUrl;
+}
 
-  // const timestampFull = new Date().getTime();
+function listExport() {
+  var modes = document.querySelector("#downloadList");
 
-  // timestamp = String(timestampFull).slice(0, -4);
-  // console.log("timestamp desde script: " + timestamp);
+  modes.style.opacity = 1;
 
-  // const fileName = `group_${groupId}_messages_${timestamp}.csv`;
+  modes.classList.toggle("modes_menu--mostrar");
+  modes.classList.toggle("modes_menu--ocultar");
 
-  // console.log(timestamp);
+  var apiUrl = "http://localhost:3000/export-list";
 
-  // function descargarArchivoCSV(datos, nombreArchivo) {
-  //   const contenido =
-  //     "data:text/csv;charset=utf-8," + encodeURIComponent(datos);
-  //   const enlace = document.createElement("a");
-  //   enlace.setAttribute("href", contenido);
-  //   enlace.setAttribute("download", nombreArchivo);
-  //   enlace.style.display = "none";
-  //   document.body.appendChild(enlace);
-  //   enlace.click();
-  //   document.body.removeChild(enlace);
-  // }
+  let xhr = new XMLHttpRequest();
 
-  // // Ejemplo de uso
-  // const datosCSV = "Nombre,Apellido,Edad\nJohn,Doe,30\nJane,Smith,25";
-  // const nombreArchivo = "datos.csv";
+  xhr.open("GET", apiUrl, true);
 
-  // document
-  //   .getElementById("btnDescargar")
-  //   .addEventListener("click", function () {
-  //     descargarArchivoCSV(datosCSV, nombreArchivo);
-  //   });
+  xhr.onload = function () {
+    if (xhr.status === 200) {
+      var response = JSON.parse(xhr.responseText);
+      var listExport = response;
 
-  //});
+      var list = document.getElementById("listExport");
+
+      listExportHTML = "";
+
+      listExport.forEach(function (archive) {
+        listExportHTML += `<li class="archive_name_list"><a href="#" class = "archive_name" onclick="downloadOldArchive('${archive}')">${archive}</a></li>`;
+      });
+
+      list.innerHTML = listExportHTML;
+    }
+  };
+  xhr.send();
+}
+
+function downloadOldArchive(nameArchive) {
+  var apiUrl = `http://localhost:3000/download-old-archive?fileName=${nameArchive}`;
+  location.href = apiUrl;
 }

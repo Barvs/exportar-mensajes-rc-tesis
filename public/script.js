@@ -47,7 +47,7 @@ function setLastMonth() {
 }
 
 var xhr = new XMLHttpRequest();
-xhr.open("GET", "http://localhost:3000/rc/get-groups", true);
+xhr.open("GET", "/rc/get-groups", true);
 xhr.onload = function () {
   if (xhr.status === 200) {
     var response = JSON.parse(xhr.responseText);
@@ -72,7 +72,7 @@ document.addEventListener("DOMContentLoaded", function () {
   channelSelect.addEventListener("change", function () {
     channelId = channelSelect.options[channelSelect.selectedIndex].value;
 
-    apiUrl = `http://localhost:3000/rc/get-group-members?group_id=${channelId}`;
+    apiUrl = `/rc/get-group-members?group_id=${channelId}`;
 
     let xhr = new XMLHttpRequest();
 
@@ -110,7 +110,7 @@ function previewMessages() {
     userId = "=" + userId;
   }
 
-  let apiUrl = `http://localhost:3000/rc/get-group-messages?group_id=${groupId}&user_id${userId}&from_date=${fromDate}&to_date=${toDate}`;
+  let apiUrl = `/rc/get-group-messages?group_id=${groupId}&user_id${userId}&from_date=${fromDate}&to_date=${toDate}`;
 
   let xhr = new XMLHttpRequest();
 
@@ -177,7 +177,7 @@ function exportMessages() {
     userId = "=" + userId;
   }
 
-  var apiUrl = `http://localhost:3000/rc/export-group-messages?group_id=${groupId}&user_id${userId}&from_date=${fromDate}&to_date=${toDate}`;
+  var apiUrl = `/rc/export-group-messages?group_id=${groupId}&user_id${userId}&from_date=${fromDate}&to_date=${toDate}`;
 
   location.href = apiUrl;
 }
@@ -190,7 +190,7 @@ function listExport() {
   modes.classList.toggle("modes_menu--mostrar");
   modes.classList.toggle("modes_menu--ocultar");
 
-  var apiUrl = "http://localhost:3000/export-list";
+  var apiUrl = "/export-list";
 
   let xhr = new XMLHttpRequest();
 
@@ -216,6 +216,6 @@ function listExport() {
 }
 
 function downloadOldArchive(nameArchive) {
-  var apiUrl = `http://localhost:3000/download-old-archive?fileName=${nameArchive}`;
+  var apiUrl = `/download-old-archive?fileName=${nameArchive}`;
   location.href = apiUrl;
 }

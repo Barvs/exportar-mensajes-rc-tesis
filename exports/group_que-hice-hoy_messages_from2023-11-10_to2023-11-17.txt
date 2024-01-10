@@ -1,0 +1,876 @@
+Nombre: iliannis Pereda
+Fecha y hora: 16-11-2023
+Mensaje: Buenas tardes. Actividades del 15/11/2023
+-Onelimo: Reporte de bugs
+-Zupper app: Imagenes Hato
+-Playpen web: Revisión surveys, reporte de bugs
+
+Nombre: Pedro Parra
+Fecha y hora: 16-11-2023
+Mensaje: *Actividades 08/11/2023*
+Ridery:
+  ☐ Resuelto crash cuando el driver posee datos inconsistentes.
+  ☐ scheduled trip fixes.
+
+*Actividades 09/11/2023*
+Ridery:
+  ☐ PRS1-6009 PRS1-6033.
+  ☐ PRS1-6004 surge bugfix.
+  ☐ PRS1-5757 map markers.
+
+*Actividades 10/11/2023*
+Ridery:
+  ☐ lottie animation for searching driver.
+
+*Actividades 13/11/2023*
+Ridery:
+  ☐ PRS1-5852 handling messages from Booking module.
+  ☐ PRS1-6096 fixed towing dialog info.
+  ☐ Merge branch 'sim/feature/polls' into feature/release_sprint_14.
+
+
+*Actividades 14/11/2023*
+Ridery:
+  ☐ PRS1-6085 updated destination icons.
+  ☐ PRS1-6085 scheduled trip visual fix.
+  ☐ citytype selection bugfix.
+  ☐ towing price fix.
+Ticketmundo:
+  ☐ Actualizada información de throttling y reserva con Redis en el API de Reservas.
+
+*Actividades 15/11/2023*
+Ridery:
+  ☐ Fix Euro issues.
+  ☐ Splash updates and testing.
+  ☐ Scheduled trip notification testing.
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15/11/23
+Don Demand POS
+Wireframes alta fidelidad para el módulo de finanzas: estado de resultados y turnos de caja.
+También para el módulo de acceso: Puestos y sucursales
+
+Nombre: José Daniel Gómez
+Fecha y hora: 16-11-2023
+Mensaje: ```
+# 15-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-6091, PRS1-6083, PRS1-6022
+
+```
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15-11-2023
+Dondemand Marketplace
+- Consumir endpoint para listar flotas por servicesSuplierId
+- Trabajar estilos de card de flota y modal para crear nueva flota
+
+OneLimo
+- Apoyo a Leo para resolver un problema al registrar un nuevo affiliate (no se esta mostrando en pantalla aun cuando el dato si se guarda en la base de datos) aun por corregir
+- Buscar acciones donde se envian correos para validar que no se envien a usuarios reales del sistema.
+
+Nombre: Maria Ortiz
+Fecha y hora: 16-11-2023
+Mensaje: Yo imagino que ayer solo trabajó Iliannis
+@all
+
+Nombre: iliannis Pereda
+Fecha y hora: 15-11-2023
+Mensaje: Buenas tardes. Actividades del 15/11/2023
+-Property Portal: Tarjetas asana
+-Zupper app: Imagenes Hato
+
+Nombre: José Daniel Gómez
+Fecha y hora: 15-11-2023
+Mensaje: ```
+# 14-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-5909, PRS1-6020, PRS1-6035, PRS1-6078, PRS1-6081
+
+```
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 15-11-2023
+Mensaje: Actividades 14/11/23
+Don Demand POS
+Replanteamiento de arquitectura de la información
+Wireframes alta fidelidad para el módulo de historial de transacciones, categoria de cuentas, categoría de transacciones
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 15-11-2023
+Mensaje: Actividades 14-03-2023
+Dondemand Marketplace
+- Obtener Service supliers del api
+- Mejorar estilos de los tabs de services suppliers
+- trabajar filtro de flotas por id de service supplier (por terminar)
+
+Nombre: Leonardo Benavides
+Fecha y hora: 15-11-2023
+Mensaje: actividades 13-11-2023
+-zupper ios(no corre)
+-reporte TM
+
+actividades 14-11-2023
+Onelimo
+- realizar ajustes en reservation y mReservations.php ya que no siempre traia datos y no siempre guarda de forma correcta al crear una nueva reservación
+- ajustes en account receivable al crear un Innvoice al guardar un nuevo invoice
+
+Otros
+- zupper ios(lo mismo de el dia anterior)
+
+Nombre: iliannis Pereda
+Fecha y hora: 14-11-2023
+Mensaje: Buenas tardes. Actividades del 14/11/2023
+-Onelimo: Tarjetas asana, reporte de bugs
+-Property Portal: Tarjetas asana, reporte de bugs
+-Zupper app: Imagenes Hato
+
+Nombre: José Daniel Gómez
+Fecha y hora: 14-11-2023
+Mensaje: ```
+# 13-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-6039, PRS1-6045, PRS1-6058, PRS1-6046 
+- resolver dudas sobre tickets con QAs de ridery y María
+
+### Otras tareas
+- Reunión general
+- Reunión de final de la tarde
+
+```
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 14-11-2023
+Mensaje: Actividades 13/11/23
+Don Demand POS
+* Replanteamiento de arquitectura de la información
+* Wireframes alta fidelidad para el módulo de platillos
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 14-11-2023
+Mensaje: Actividades 13-11-2023
+Dondemand Marketplace
+- Trabajar formulario para crear flotas
+
+Nombre: iliannis Pereda
+Fecha y hora: 13-11-2023
+Mensaje: Buenas tardes. Actividades del 13/11/2023
+-Onelimo: Tarjetas asana, reporte de bugs
+
+Nombre: Irving Martínez
+Fecha y hora: 13-11-2023
+Mensaje: ```
+Fecha: 10/11/2023
+
+Teachlr Organizaciones:
+
+- Continuación con la implementación del procedimiento para recalcular el porcentaje de completación a todos o algunos usuarios específicos de un curso, con todo lo que implica, en todos los servicios que lo requieren.
+- Corrección semimanual de los resultados de la evaluación de un estudiante para generar su nota final (reprobando la última pregunta que no fue contestada).
+```
+
+Nombre: Irving Martínez
+Fecha y hora: 13-11-2023
+Mensaje: ```
+Fecha: 09/11/2023
+
+Teachlr Organizaciones:
+
+- Reunión con Andrés para probar otros ajustes de la implementación de videoconferencias con Zoom integradas a la aplicación.
+- Implementación del procedimiento para recalcular el porcentaje de completación a todos o algunos usuarios específicos de un curso, con todo lo que implica, en todos los servicios que lo requieren (incompleto).
+```
+
+Nombre: Irving Martínez
+Fecha y hora: 13-11-2023
+Mensaje: ```
+Fecha: 08/11/2023
+
+Teachlr Organizaciones:
+
+- Reunión con Andrés para mostrar los avances en la función global que permite realizar el recálculo del porcentaje de completación, con todo lo que implica; además, discutir sobre otros servicios o funciones que se deben optimizar para evitar los bloqueos de base de datos que ralentizan la aplicación.
+- Creación de varias evaluaciones en un curso con distintos ajustes para que puedan ser probadas (por Iliannis) las funcionalidades de liberar próximo intento en fecha futura y ocultar la tabla de resultados en la app móvil iOS.
+```
+
+Nombre: Leonardo Benavides
+Fecha y hora: 13-11-2023
+Mensaje: actividades 09-11-2023
+- seguir con instalacion de proyecto Zupper ios
+
+actividades 10-11-2023
+onelimo
+- Verificar que al paginar luego de modificar el número de registros (50/75) en "Affiliate list" se muestre loader mientras carga la información
+otros 
+- instalacion proyecto Zupper ios(fallido otra vez)
+
+Nombre: Luis Tormes
+Fecha y hora: 13-11-2023
+Mensaje: ```
+**Viernes 10-11-2023** 
+
+***Landing TM (website-dev):*** 
+- Seguir haciendo los nuevos cambios de estilo que van surgiendo.
+- Instalar la librería del login, version 1.9.64.
+
+***Librería de login TM:*** 
+- Compilar y publicar la nueva version 1.9.64.
+```
+
+Nombre: Luis Tormes
+Fecha y hora: 13-11-2023
+Mensaje: ```
+**Jueves 09-11-2023** 
+
+***Landing TM (website-dev):*** 
+- Seguir haciendo nuevos cambios de estilo que me indico Mariannys.
+```
+
+Nombre: Luis Tormes
+Fecha y hora: 13-11-2023
+Mensaje: ```
+**Miércoles 08-11-2023** 
+
+***Landing TM (website-dev):*** 
+- Terminar de centrar la sección de contactos este centrada es decir mismo espaciado a los lados.
+- Buscar el el swagger e investigar si hay la forma traer los eventos por categoría para dividir la section de eventos por categorías (no hay forma de traer eventos por categoría).
+- Agregar el nuevo estilo del dark mode en la pagina de ticketing y vende con nosotros, (cambiar el fondo de algunas secciones para un mayor contraste, y el color del texto).
+- Colocar dos filas de eventos en pantallas menores a 992px. 
+- Colocar una única imagen en el bannerPlay en pantallas menores a 992px. 
+- Cambiar la imagen del logo para descargar cuando este en dark mode (esto ya lo había hecho pero tenia un error).
+
+***Librería de login TM:*** 
+- Trabajar en una version estable para producción: 
+	- Colocar el texto real que va en la pantalla de promociones y quitar ese lorem-ipsum.
+	- Maquetar la pantalla de ver los recibos en el historial de tickets, (Faltaba el diseño de esto y Mariannys lo hizo hoy, por ahora falta un endpoint para traer los datos de la factura, no se si  ya existe).
+```
+
+Nombre: iliannis Pereda
+Fecha y hora: 10-11-2023
+Mensaje: Buenas tardes. Actividades del 10/11/2023
+-Teachlr IOS: Revisión general, reporte de bugs
+-Zupper app: Imagenes Hato
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 10/11/23
+Don Demand POS Wireframes alta fidelidad back office
+*Correcciones pantallas anteriores con respecto a la arquitectura de la información
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 10-11-23
+- Programada promoción Domingo Susushi
+- Programada promoción Lunes a jueves en hamburguesas
+- Carga de imágenes en el hato 
+
+- Arreglo de pantallas y vistas del app, notificaciones
+
+
+Actividades 09-11-23
+- Cambio de Zupper opciones 
+
+- Arreglo de pantallas y vistas del app, muestra de modal calificaciones
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 10-11-2023
+Mensaje: *Actividades 10-11-2023*
+TM Toolkit
+- Corregir condicion para validar hash usadon en EventSkinJob y FunctionSkinJob
+- Crear modulo para Evento skin y Funcion skin:
+     -Se agrego lista de eventos por rango de fecha.
+     -Se habilito los botones para actualizar json de Event skin o Function skin tomando los ids obtenidos en la anterior consulta por fechas.
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 09-11-2023
+Don Demand admin
+- Clonar proyecto y reunirme con Pedro y Mafer para ponerme al tanto de los requerimientos para el modulo de flotas.
+- Comenzar a maquetar pantallas de flotas.
+
+Nombre: iliannis Pereda
+Fecha y hora: 16-11-2023
+Mensaje: Buenas tardes. Actividades del 15/11/2023
+-Onelimo: Reporte de bugs
+-Zupper app: Imagenes Hato
+-Playpen web: Revisión surveys, reporte de bugs
+
+Nombre: Pedro Parra
+Fecha y hora: 16-11-2023
+Mensaje: *Actividades 08/11/2023*
+Ridery:
+  ☐ Resuelto crash cuando el driver posee datos inconsistentes.
+  ☐ scheduled trip fixes.
+
+*Actividades 09/11/2023*
+Ridery:
+  ☐ PRS1-6009 PRS1-6033.
+  ☐ PRS1-6004 surge bugfix.
+  ☐ PRS1-5757 map markers.
+
+*Actividades 10/11/2023*
+Ridery:
+  ☐ lottie animation for searching driver.
+
+*Actividades 13/11/2023*
+Ridery:
+  ☐ PRS1-5852 handling messages from Booking module.
+  ☐ PRS1-6096 fixed towing dialog info.
+  ☐ Merge branch 'sim/feature/polls' into feature/release_sprint_14.
+
+
+*Actividades 14/11/2023*
+Ridery:
+  ☐ PRS1-6085 updated destination icons.
+  ☐ PRS1-6085 scheduled trip visual fix.
+  ☐ citytype selection bugfix.
+  ☐ towing price fix.
+Ticketmundo:
+  ☐ Actualizada información de throttling y reserva con Redis en el API de Reservas.
+
+*Actividades 15/11/2023*
+Ridery:
+  ☐ Fix Euro issues.
+  ☐ Splash updates and testing.
+  ☐ Scheduled trip notification testing.
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15/11/23
+Don Demand POS
+Wireframes alta fidelidad para el módulo de finanzas: estado de resultados y turnos de caja.
+También para el módulo de acceso: Puestos y sucursales
+
+Nombre: José Daniel Gómez
+Fecha y hora: 16-11-2023
+Mensaje: ```
+# 15-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-6091, PRS1-6083, PRS1-6022
+
+```
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15-11-2023
+Dondemand Marketplace
+- Consumir endpoint para listar flotas por servicesSuplierId
+- Trabajar estilos de card de flota y modal para crear nueva flota
+
+OneLimo
+- Apoyo a Leo para resolver un problema al registrar un nuevo affiliate (no se esta mostrando en pantalla aun cuando el dato si se guarda en la base de datos) aun por corregir
+- Buscar acciones donde se envian correos para validar que no se envien a usuarios reales del sistema.
+
+Nombre: Maria Ortiz
+Fecha y hora: 16-11-2023
+Mensaje: Yo imagino que ayer solo trabajó Iliannis
+@all
+
+Nombre: iliannis Pereda
+Fecha y hora: 15-11-2023
+Mensaje: Buenas tardes. Actividades del 15/11/2023
+-Property Portal: Tarjetas asana
+-Zupper app: Imagenes Hato
+
+Nombre: José Daniel Gómez
+Fecha y hora: 15-11-2023
+Mensaje: ```
+# 14-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-5909, PRS1-6020, PRS1-6035, PRS1-6078, PRS1-6081
+
+```
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 15-11-2023
+Mensaje: Actividades 14/11/23
+Don Demand POS
+Replanteamiento de arquitectura de la información
+Wireframes alta fidelidad para el módulo de historial de transacciones, categoria de cuentas, categoría de transacciones
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 15-11-2023
+Mensaje: Actividades 14-03-2023
+Dondemand Marketplace
+- Obtener Service supliers del api
+- Mejorar estilos de los tabs de services suppliers
+- trabajar filtro de flotas por id de service supplier (por terminar)
+
+Nombre: Leonardo Benavides
+Fecha y hora: 15-11-2023
+Mensaje: actividades 13-11-2023
+-zupper ios(no corre)
+-reporte TM
+
+actividades 14-11-2023
+Onelimo
+- realizar ajustes en reservation y mReservations.php ya que no siempre traia datos y no siempre guarda de forma correcta al crear una nueva reservación
+- ajustes en account receivable al crear un Innvoice al guardar un nuevo invoice
+
+Otros
+- zupper ios(lo mismo de el dia anterior)
+
+Nombre: iliannis Pereda
+Fecha y hora: 14-11-2023
+Mensaje: Buenas tardes. Actividades del 14/11/2023
+-Onelimo: Tarjetas asana, reporte de bugs
+-Property Portal: Tarjetas asana, reporte de bugs
+-Zupper app: Imagenes Hato
+
+Nombre: José Daniel Gómez
+Fecha y hora: 14-11-2023
+Mensaje: ```
+# 13-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-6039, PRS1-6045, PRS1-6058, PRS1-6046 
+- resolver dudas sobre tickets con QAs de ridery y María
+
+### Otras tareas
+- Reunión general
+- Reunión de final de la tarde
+
+```
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 14-11-2023
+Mensaje: Actividades 13/11/23
+Don Demand POS
+* Replanteamiento de arquitectura de la información
+* Wireframes alta fidelidad para el módulo de platillos
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 14-11-2023
+Mensaje: Actividades 13-11-2023
+Dondemand Marketplace
+- Trabajar formulario para crear flotas
+
+Nombre: iliannis Pereda
+Fecha y hora: 13-11-2023
+Mensaje: Buenas tardes. Actividades del 13/11/2023
+-Onelimo: Tarjetas asana, reporte de bugs
+
+Nombre: Irving Martínez
+Fecha y hora: 13-11-2023
+Mensaje: ```
+Fecha: 10/11/2023
+
+Teachlr Organizaciones:
+
+- Continuación con la implementación del procedimiento para recalcular el porcentaje de completación a todos o algunos usuarios específicos de un curso, con todo lo que implica, en todos los servicios que lo requieren.
+- Corrección semimanual de los resultados de la evaluación de un estudiante para generar su nota final (reprobando la última pregunta que no fue contestada).
+```
+
+Nombre: Irving Martínez
+Fecha y hora: 13-11-2023
+Mensaje: ```
+Fecha: 09/11/2023
+
+Teachlr Organizaciones:
+
+- Reunión con Andrés para probar otros ajustes de la implementación de videoconferencias con Zoom integradas a la aplicación.
+- Implementación del procedimiento para recalcular el porcentaje de completación a todos o algunos usuarios específicos de un curso, con todo lo que implica, en todos los servicios que lo requieren (incompleto).
+```
+
+Nombre: Irving Martínez
+Fecha y hora: 13-11-2023
+Mensaje: ```
+Fecha: 08/11/2023
+
+Teachlr Organizaciones:
+
+- Reunión con Andrés para mostrar los avances en la función global que permite realizar el recálculo del porcentaje de completación, con todo lo que implica; además, discutir sobre otros servicios o funciones que se deben optimizar para evitar los bloqueos de base de datos que ralentizan la aplicación.
+- Creación de varias evaluaciones en un curso con distintos ajustes para que puedan ser probadas (por Iliannis) las funcionalidades de liberar próximo intento en fecha futura y ocultar la tabla de resultados en la app móvil iOS.
+```
+
+Nombre: Leonardo Benavides
+Fecha y hora: 13-11-2023
+Mensaje: actividades 09-11-2023
+- seguir con instalacion de proyecto Zupper ios
+
+actividades 10-11-2023
+onelimo
+- Verificar que al paginar luego de modificar el número de registros (50/75) en "Affiliate list" se muestre loader mientras carga la información
+otros 
+- instalacion proyecto Zupper ios(fallido otra vez)
+
+Nombre: Luis Tormes
+Fecha y hora: 13-11-2023
+Mensaje: ```
+**Viernes 10-11-2023** 
+
+***Landing TM (website-dev):*** 
+- Seguir haciendo los nuevos cambios de estilo que van surgiendo.
+- Instalar la librería del login, version 1.9.64.
+
+***Librería de login TM:*** 
+- Compilar y publicar la nueva version 1.9.64.
+```
+
+Nombre: Luis Tormes
+Fecha y hora: 13-11-2023
+Mensaje: ```
+**Jueves 09-11-2023** 
+
+***Landing TM (website-dev):*** 
+- Seguir haciendo nuevos cambios de estilo que me indico Mariannys.
+```
+
+Nombre: Luis Tormes
+Fecha y hora: 13-11-2023
+Mensaje: ```
+**Miércoles 08-11-2023** 
+
+***Landing TM (website-dev):*** 
+- Terminar de centrar la sección de contactos este centrada es decir mismo espaciado a los lados.
+- Buscar el el swagger e investigar si hay la forma traer los eventos por categoría para dividir la section de eventos por categorías (no hay forma de traer eventos por categoría).
+- Agregar el nuevo estilo del dark mode en la pagina de ticketing y vende con nosotros, (cambiar el fondo de algunas secciones para un mayor contraste, y el color del texto).
+- Colocar dos filas de eventos en pantallas menores a 992px. 
+- Colocar una única imagen en el bannerPlay en pantallas menores a 992px. 
+- Cambiar la imagen del logo para descargar cuando este en dark mode (esto ya lo había hecho pero tenia un error).
+
+***Librería de login TM:*** 
+- Trabajar en una version estable para producción: 
+	- Colocar el texto real que va en la pantalla de promociones y quitar ese lorem-ipsum.
+	- Maquetar la pantalla de ver los recibos en el historial de tickets, (Faltaba el diseño de esto y Mariannys lo hizo hoy, por ahora falta un endpoint para traer los datos de la factura, no se si  ya existe).
+```
+
+Nombre: iliannis Pereda
+Fecha y hora: 10-11-2023
+Mensaje: Buenas tardes. Actividades del 10/11/2023
+-Teachlr IOS: Revisión general, reporte de bugs
+-Zupper app: Imagenes Hato
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 10/11/23
+Don Demand POS Wireframes alta fidelidad back office
+*Correcciones pantallas anteriores con respecto a la arquitectura de la información
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 10-11-23
+- Programada promoción Domingo Susushi
+- Programada promoción Lunes a jueves en hamburguesas
+- Carga de imágenes en el hato 
+
+- Arreglo de pantallas y vistas del app, notificaciones
+
+
+Actividades 09-11-23
+- Cambio de Zupper opciones 
+
+- Arreglo de pantallas y vistas del app, muestra de modal calificaciones
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 10-11-2023
+Mensaje: *Actividades 10-11-2023*
+TM Toolkit
+- Corregir condicion para validar hash usadon en EventSkinJob y FunctionSkinJob
+- Crear modulo para Evento skin y Funcion skin:
+     -Se agrego lista de eventos por rango de fecha.
+     -Se habilito los botones para actualizar json de Event skin o Function skin tomando los ids obtenidos en la anterior consulta por fechas.
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 09-11-2023
+Don Demand admin
+- Clonar proyecto y reunirme con Pedro y Mafer para ponerme al tanto de los requerimientos para el modulo de flotas.
+- Comenzar a maquetar pantallas de flotas.
+
+Nombre: iliannis Pereda
+Fecha y hora: 16-11-2023
+Mensaje: Buenas tardes. Actividades del 15/11/2023
+-Onelimo: Reporte de bugs
+-Zupper app: Imagenes Hato
+-Playpen web: Revisión surveys, reporte de bugs
+
+Nombre: Pedro Parra
+Fecha y hora: 16-11-2023
+Mensaje: *Actividades 08/11/2023*
+Ridery:
+  ☐ Resuelto crash cuando el driver posee datos inconsistentes.
+  ☐ scheduled trip fixes.
+
+*Actividades 09/11/2023*
+Ridery:
+  ☐ PRS1-6009 PRS1-6033.
+  ☐ PRS1-6004 surge bugfix.
+  ☐ PRS1-5757 map markers.
+
+*Actividades 10/11/2023*
+Ridery:
+  ☐ lottie animation for searching driver.
+
+*Actividades 13/11/2023*
+Ridery:
+  ☐ PRS1-5852 handling messages from Booking module.
+  ☐ PRS1-6096 fixed towing dialog info.
+  ☐ Merge branch 'sim/feature/polls' into feature/release_sprint_14.
+
+
+*Actividades 14/11/2023*
+Ridery:
+  ☐ PRS1-6085 updated destination icons.
+  ☐ PRS1-6085 scheduled trip visual fix.
+  ☐ citytype selection bugfix.
+  ☐ towing price fix.
+Ticketmundo:
+  ☐ Actualizada información de throttling y reserva con Redis en el API de Reservas.
+
+*Actividades 15/11/2023*
+Ridery:
+  ☐ Fix Euro issues.
+  ☐ Splash updates and testing.
+  ☐ Scheduled trip notification testing.
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15/11/23
+Don Demand POS
+Wireframes alta fidelidad para el módulo de finanzas: estado de resultados y turnos de caja.
+También para el módulo de acceso: Puestos y sucursales
+
+Nombre: José Daniel Gómez
+Fecha y hora: 16-11-2023
+Mensaje: ```
+# 15-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-6091, PRS1-6083, PRS1-6022
+
+```
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15-11-2023
+Dondemand Marketplace
+- Consumir endpoint para listar flotas por servicesSuplierId
+- Trabajar estilos de card de flota y modal para crear nueva flota
+
+OneLimo
+- Apoyo a Leo para resolver un problema al registrar un nuevo affiliate (no se esta mostrando en pantalla aun cuando el dato si se guarda en la base de datos) aun por corregir
+- Buscar acciones donde se envian correos para validar que no se envien a usuarios reales del sistema.
+
+Nombre: Maria Ortiz
+Fecha y hora: 16-11-2023
+Mensaje: Yo imagino que ayer solo trabajó Iliannis
+@all
+
+Nombre: iliannis Pereda
+Fecha y hora: 15-11-2023
+Mensaje: Buenas tardes. Actividades del 15/11/2023
+-Property Portal: Tarjetas asana
+-Zupper app: Imagenes Hato
+
+Nombre: José Daniel Gómez
+Fecha y hora: 15-11-2023
+Mensaje: ```
+# 14-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-5909, PRS1-6020, PRS1-6035, PRS1-6078, PRS1-6081
+
+```
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 15-11-2023
+Mensaje: Actividades 14/11/23
+Don Demand POS
+Replanteamiento de arquitectura de la información
+Wireframes alta fidelidad para el módulo de historial de transacciones, categoria de cuentas, categoría de transacciones
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 15-11-2023
+Mensaje: Actividades 14-03-2023
+Dondemand Marketplace
+- Obtener Service supliers del api
+- Mejorar estilos de los tabs de services suppliers
+- trabajar filtro de flotas por id de service supplier (por terminar)
+
+Nombre: Leonardo Benavides
+Fecha y hora: 15-11-2023
+Mensaje: actividades 13-11-2023
+-zupper ios(no corre)
+-reporte TM
+
+actividades 14-11-2023
+Onelimo
+- realizar ajustes en reservation y mReservations.php ya que no siempre traia datos y no siempre guarda de forma correcta al crear una nueva reservación
+- ajustes en account receivable al crear un Innvoice al guardar un nuevo invoice
+
+Otros
+- zupper ios(lo mismo de el dia anterior)
+
+Nombre: iliannis Pereda
+Fecha y hora: 14-11-2023
+Mensaje: Buenas tardes. Actividades del 14/11/2023
+-Onelimo: Tarjetas asana, reporte de bugs
+-Property Portal: Tarjetas asana, reporte de bugs
+-Zupper app: Imagenes Hato
+
+Nombre: José Daniel Gómez
+Fecha y hora: 14-11-2023
+Mensaje: ```
+# 13-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-6039, PRS1-6045, PRS1-6058, PRS1-6046 
+- resolver dudas sobre tickets con QAs de ridery y María
+
+### Otras tareas
+- Reunión general
+- Reunión de final de la tarde
+
+```
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 14-11-2023
+Mensaje: Actividades 13/11/23
+Don Demand POS
+* Replanteamiento de arquitectura de la información
+* Wireframes alta fidelidad para el módulo de platillos
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 14-11-2023
+Mensaje: Actividades 13-11-2023
+Dondemand Marketplace
+- Trabajar formulario para crear flotas
+
+Nombre: iliannis Pereda
+Fecha y hora: 13-11-2023
+Mensaje: Buenas tardes. Actividades del 13/11/2023
+-Onelimo: Tarjetas asana, reporte de bugs
+
+Nombre: Irving Martínez
+Fecha y hora: 13-11-2023
+Mensaje: ```
+Fecha: 10/11/2023
+
+Teachlr Organizaciones:
+
+- Continuación con la implementación del procedimiento para recalcular el porcentaje de completación a todos o algunos usuarios específicos de un curso, con todo lo que implica, en todos los servicios que lo requieren.
+- Corrección semimanual de los resultados de la evaluación de un estudiante para generar su nota final (reprobando la última pregunta que no fue contestada).
+```
+
+Nombre: Irving Martínez
+Fecha y hora: 13-11-2023
+Mensaje: ```
+Fecha: 09/11/2023
+
+Teachlr Organizaciones:
+
+- Reunión con Andrés para probar otros ajustes de la implementación de videoconferencias con Zoom integradas a la aplicación.
+- Implementación del procedimiento para recalcular el porcentaje de completación a todos o algunos usuarios específicos de un curso, con todo lo que implica, en todos los servicios que lo requieren (incompleto).
+```
+
+Nombre: Irving Martínez
+Fecha y hora: 13-11-2023
+Mensaje: ```
+Fecha: 08/11/2023
+
+Teachlr Organizaciones:
+
+- Reunión con Andrés para mostrar los avances en la función global que permite realizar el recálculo del porcentaje de completación, con todo lo que implica; además, discutir sobre otros servicios o funciones que se deben optimizar para evitar los bloqueos de base de datos que ralentizan la aplicación.
+- Creación de varias evaluaciones en un curso con distintos ajustes para que puedan ser probadas (por Iliannis) las funcionalidades de liberar próximo intento en fecha futura y ocultar la tabla de resultados en la app móvil iOS.
+```
+
+Nombre: Leonardo Benavides
+Fecha y hora: 13-11-2023
+Mensaje: actividades 09-11-2023
+- seguir con instalacion de proyecto Zupper ios
+
+actividades 10-11-2023
+onelimo
+- Verificar que al paginar luego de modificar el número de registros (50/75) en "Affiliate list" se muestre loader mientras carga la información
+otros 
+- instalacion proyecto Zupper ios(fallido otra vez)
+
+Nombre: Luis Tormes
+Fecha y hora: 13-11-2023
+Mensaje: ```
+**Viernes 10-11-2023** 
+
+***Landing TM (website-dev):*** 
+- Seguir haciendo los nuevos cambios de estilo que van surgiendo.
+- Instalar la librería del login, version 1.9.64.
+
+***Librería de login TM:*** 
+- Compilar y publicar la nueva version 1.9.64.
+```
+
+Nombre: Luis Tormes
+Fecha y hora: 13-11-2023
+Mensaje: ```
+**Jueves 09-11-2023** 
+
+***Landing TM (website-dev):*** 
+- Seguir haciendo nuevos cambios de estilo que me indico Mariannys.
+```
+
+Nombre: Luis Tormes
+Fecha y hora: 13-11-2023
+Mensaje: ```
+**Miércoles 08-11-2023** 
+
+***Landing TM (website-dev):*** 
+- Terminar de centrar la sección de contactos este centrada es decir mismo espaciado a los lados.
+- Buscar el el swagger e investigar si hay la forma traer los eventos por categoría para dividir la section de eventos por categorías (no hay forma de traer eventos por categoría).
+- Agregar el nuevo estilo del dark mode en la pagina de ticketing y vende con nosotros, (cambiar el fondo de algunas secciones para un mayor contraste, y el color del texto).
+- Colocar dos filas de eventos en pantallas menores a 992px. 
+- Colocar una única imagen en el bannerPlay en pantallas menores a 992px. 
+- Cambiar la imagen del logo para descargar cuando este en dark mode (esto ya lo había hecho pero tenia un error).
+
+***Librería de login TM:*** 
+- Trabajar en una version estable para producción: 
+	- Colocar el texto real que va en la pantalla de promociones y quitar ese lorem-ipsum.
+	- Maquetar la pantalla de ver los recibos en el historial de tickets, (Faltaba el diseño de esto y Mariannys lo hizo hoy, por ahora falta un endpoint para traer los datos de la factura, no se si  ya existe).
+```
+
+Nombre: iliannis Pereda
+Fecha y hora: 10-11-2023
+Mensaje: Buenas tardes. Actividades del 10/11/2023
+-Teachlr IOS: Revisión general, reporte de bugs
+-Zupper app: Imagenes Hato
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 10/11/23
+Don Demand POS Wireframes alta fidelidad back office
+*Correcciones pantallas anteriores con respecto a la arquitectura de la información
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 10-11-23
+- Programada promoción Domingo Susushi
+- Programada promoción Lunes a jueves en hamburguesas
+- Carga de imágenes en el hato 
+
+- Arreglo de pantallas y vistas del app, notificaciones
+
+
+Actividades 09-11-23
+- Cambio de Zupper opciones 
+
+- Arreglo de pantallas y vistas del app, muestra de modal calificaciones
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 10-11-2023
+Mensaje: *Actividades 10-11-2023*
+TM Toolkit
+- Corregir condicion para validar hash usadon en EventSkinJob y FunctionSkinJob
+- Crear modulo para Evento skin y Funcion skin:
+     -Se agrego lista de eventos por rango de fecha.
+     -Se habilito los botones para actualizar json de Event skin o Function skin tomando los ids obtenidos en la anterior consulta por fechas.
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 10-11-2023
+Mensaje: Actividades 09-11-2023
+Don Demand admin
+- Clonar proyecto y reunirme con Pedro y Mafer para ponerme al tanto de los requerimientos para el modulo de flotas.
+- Comenzar a maquetar pantallas de flotas.
+

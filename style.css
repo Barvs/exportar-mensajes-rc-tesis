@@ -1,24 +1,32 @@
 body {
-  font-family: Arial, sans-serif;
+  background: #1d1a1a;
+  font-family: "Roboto Mono", monospace;
   margin: 0;
   padding: 0;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #f1f1f1;
+  background-image: url("public/src/Rectangle 2.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 .container {
-  background-color: #fff;
-  padding: 20px;
-  border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background: linear-gradient(0deg, #211823 3.25%, #3e2a41 95.84%);
+  padding: 24px;
 }
 
-.container h2 {
+h2 {
   text-align: center;
   margin-bottom: 20px;
+  color: #fff;
+}
+
+h4 {
+  margin-bottom: 20px;
+  color: #fff;
 }
 
 .container input[type="text"],
@@ -32,15 +40,17 @@ body {
 }
 
 .container button {
+  font-family: "Roboto Mono", monospace;
   width: 100%;
   padding: 10px;
-  background-color: #4caf50;
-  color: #fff;
+  background-color: #fff;
+  color: #201822;
   border: none;
-  border-radius: 4px;
   cursor: pointer;
+  margin-top: 50px;
 }
 
 .container button:hover {
-  background-color: #45a049;
+  background-color: #9d10df;
+  color: #fff;
 }

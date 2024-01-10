@@ -4,63 +4,159 @@
     <meta charset="UTF-8" />
     <title>Exportar Mensajes</title>
     <link rel="stylesheet" href="style_home.css" />
+    <!--link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <!--script src="server/rocketchat/service.js"></script-->
     <script src="script.js"></script>
   </head>
   <body>
     <div class="container">
-      <h1>Exportar Mensajes</h1>
+      <header class="header">
+        <div class="header_buttons">
+          <button class="header_button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              class="icon icon-tabler icon-tabler-user"
+              width="36"
+              height="32"
+              viewBox="0 0 24 24"
+              stroke-width="2"
+              stroke="currentColor"
+              fill="none"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+            >
+              <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+              <path d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0" />
+              <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+            </svg>
+          </button>
+          <button
+            class="header_button"
+            onclick="listExport()"
+            id="toggleButton"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 36 36"
+              fill="none"
+            >
+              <path
+                d="M18 23.3625C17.8 23.3625 17.6125 23.3313 17.4375 23.2688C17.2625 23.2063 17.1 23.1 16.95 22.95L11.55 17.55C11.25 17.25 11.1063 16.9 11.1188 16.5C11.1313 16.1 11.275 15.75 11.55 15.45C11.85 15.15 12.2063 14.9938 12.6188 14.9813C13.0313 14.9688 13.3875 15.1125 13.6875 15.4125L16.5 18.225V7.5C16.5 7.075 16.6438 6.71875 16.9313 6.43125C17.2188 6.14375 17.575 6 18 6C18.425 6 18.7813 6.14375 19.0688 6.43125C19.3563 6.71875 19.5 7.075 19.5 7.5V18.225L22.3125 15.4125C22.6125 15.1125 22.9688 14.9688 23.3813 14.9813C23.7938 14.9938 24.15 15.15 24.45 15.45C24.725 15.75 24.8688 16.1 24.8813 16.5C24.8938 16.9 24.75 17.25 24.45 17.55L19.05 22.95C18.9 23.1 18.7375 23.2063 18.5625 23.2688C18.3875 23.3313 18.2 23.3625 18 23.3625ZM9 30C8.175 30 7.46875 29.7063 6.88125 29.1188C6.29375 28.5312 6 27.825 6 27V24C6 23.575 6.14375 23.2188 6.43125 22.9313C6.71875 22.6438 7.075 22.5 7.5 22.5C7.925 22.5 8.28125 22.6438 8.56875 22.9313C8.85625 23.2188 9 23.575 9 24V27H27V24C27 23.575 27.1438 23.2188 27.4313 22.9313C27.7188 22.6438 28.075 22.5 28.5 22.5C28.925 22.5 29.2812 22.6438 29.5688 22.9313C29.8563 23.2188 30 23.575 30 24V27C30 27.825 29.7063 28.5312 29.1188 29.1188C28.5312 29.7063 27.825 30 27 30H9Z"
+                fill="#FCDFDF"
+              />
+            </svg>
+          </button>
+          <a href="login.html" class="header_button">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="36"
+              height="36"
+              viewBox="0 0 36 36"
+              fill="none"
+            >
+              <path
+                d="M16.5 18V6C16.5 5.575 16.6438 5.21875 16.9313 4.93125C17.2188 4.64375 17.575 4.5 18 4.5C18.425 4.5 18.7813 4.64375 19.0688 4.93125C19.3563 5.21875 19.5 5.575 19.5 6V18C19.5 18.425 19.3563 18.7813 19.0688 19.0688C18.7813 19.3563 18.425 19.5 18 19.5C17.575 19.5 17.2188 19.3563 16.9313 19.0688C16.6438 18.7813 16.5 18.425 16.5 18ZM18 31.5C16.15 31.5 14.4062 31.1438 12.7688 30.4313C11.1313 29.7188 9.7 28.75 8.475 27.525C7.25 26.3 6.28125 24.8688 5.56875 23.2313C4.85625 21.5938 4.5 19.85 4.5 18C4.5 16.275 4.8125 14.6375 5.4375 13.0875C6.0625 11.5375 6.9375 10.1375 8.0625 8.8875C8.3625 8.5375 8.73125 8.35625 9.16875 8.34375C9.60625 8.33125 9.9875 8.4875 10.3125 8.8125C10.5875 9.0875 10.7125 9.43125 10.6875 9.84375C10.6625 10.2563 10.5125 10.625 10.2375 10.95C9.3625 11.9 8.6875 12.975 8.2125 14.175C7.7375 15.375 7.5 16.65 7.5 18C7.5 20.9 8.525 23.375 10.575 25.425C12.625 27.475 15.1 28.5 18 28.5C20.925 28.5 23.4062 27.475 25.4438 25.425C27.4813 23.375 28.5 20.9 28.5 18C28.5 16.65 28.2688 15.375 27.8063 14.175C27.3438 12.975 26.675 11.9 25.8 10.95C25.5 10.625 25.3375 10.2563 25.3125 9.84375C25.2875 9.43125 25.4125 9.0875 25.6875 8.8125C26.0125 8.4875 26.4 8.33125 26.85 8.34375C27.3 8.35625 27.675 8.5375 27.975 8.8875C29.1 10.1375 29.9688 11.5375 30.5813 13.0875C31.1938 14.6375 31.5 16.275 31.5 18C31.5 19.85 31.1438 21.5938 30.4313 23.2313C29.7188 24.8688 28.7563 26.3 27.5438 27.525C26.3313 28.75 24.9062 29.7188 23.2688 30.4313C21.6313 31.1438 19.875 31.5 18 31.5Z"
+                fill="#FF4567"
+              />
+            </svg>
+          </a>
+        </div>
+      </header>
+      <div class="container_options">
+        <h1>Exportar Mensajes</h1>
 
-      <h2>Selecciona el canal</h2>
-      <select id="channelSelect">
-        <option value="canal1">Canal 1</option>
-        <option value="canal2">Canal 2</option>
-        <option value="canal3">Canal 3</option>
-      </select>
+        <h2>Selecciona el canal</h2>
+        <select id="channelSelect"></select>
 
-      <h2>Selecciona el usuario</h2>
-      <select id="userSelect">
-        <option value="user1">Persona 1</option>
-        <option value="user2">Persona 2</option>
-        <option value="user3">Persona 3</option>
-      </select>
+        <h2>Selecciona el usuario</h2>
+        <select id="membersSelect">
+          <option value="">Todos</option>
+        </select>
 
-      <h2>Selecciona las fechas</h2>
-      <label for="startDate">Desde:</label>
-      <input type="date" id="startDate" />
+        <h2>Selecciona las fechas</h2>
+        <label for="startDate" class="label_date">Desde:</label>
+        <input type="date" id="startDate" />
 
-      <label for="endDate">Hasta:</label>
-      <input type="date" id="endDate" />
+        <label for="endDate" class="label_date">Hasta:</label>
+        <input type="date" id="endDate" />
 
-      <h2>Opciones predeterminadas</h2>
-      <button
-        class="button_common"
-        onclick="setToday()"
-        title="Establece la fecha de hoy en los campos de fecha"
-      >
-        Hoy
-      </button>
-      <button
-        class="button_common"
-        onclick="setLastWeek()"
-        title="Establece la fecha de hace una semana hasta hoy"
-      >
-        La última semana
-      </button>
-      <button
-        class="button_common"
-        onclick="setLastMonth()"
-        title="Establece la fecha de hace un mes hasta hoy"
-      >
-        El último mes
-      </button>
+        <h2>Opciones predeterminadas</h2>
 
-      <button
-        class="button_export"
-        onclick="exportMessages()"
-        title="Exporta los mensajes desde el timpo seleccionado"
-      >
-        Exportar
-      </button>
-    </div>
+        <div class="button_container">
+          <button
+            class="button_common"
+            onclick="setToday()"
+            title="Establece la fecha de hoy en los campos de fecha"
+          >
+            Ayer
+          </button>
+          <button
+            class="button_common"
+            onclick="setLastWeek()"
+            title="Establece la fecha de hace una semana hasta hoy"
+          >
+            La última semana
+          </button>
+          <button
+            class="button_common"
+            onclick="setLastMonth()"
+            title="Establece la fecha de hace un mes hasta hoy"
+          >
+            El último mes
+          </button>
+        </div>
+
+        <div class="buttons_options">
+          <button
+            class="button_preview"
+            onclick="previewMessages()"
+            title="Muestra una vista previa de los mensajes a exportar"
+          >
+            Vista previa
+          </button>
+
+          <button
+            class="button_export"
+            onclick="exportMessages()"
+            title="Exporta los mensajes desde el timpo seleccionado"
+          >
+            Exportar Archivo
+          </button>
+        </div>
+      </div>
+      <div id="messages_preview" class="messages_preview">
+        <!--div class="message_container">
+          <div class="avatar">BV</div>
+          <div>
+            <div class="name_date">
+              <h3 class="message_name">Antonio Figueroa</h3>
+              <h3 class="message_date">hora</h3>
+            </div>
+            <p class="message_preview">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Soluta
+              unde laboriosam veritatis quibusdam quasi fugiat dolor vel, quia
+              adipisci beatae amet tempora quidem consectetur labore, minus vero
+              dolores. Odio, vel.
+            </p>
+          </div>
+        </div-->
+      </div>
+      <div id="downloadList" class="modes_menu--ocultar" style="opacity: 0;">
+        <h3 class="list_title">Descargas recientes</h3>
+        <ul id="listExport">
+        </ul>
+      </div>
   </body>
 </html>

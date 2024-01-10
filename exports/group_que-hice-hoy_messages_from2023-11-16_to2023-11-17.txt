@@ -1,0 +1,158 @@
+Nombre: iliannis Pereda
+Fecha y hora: 16-11-2023
+Mensaje: Buenas tardes. Actividades del 15/11/2023
+-Onelimo: Reporte de bugs
+-Zupper app: Imagenes Hato
+-Playpen web: Revisión surveys, reporte de bugs
+
+Nombre: Pedro Parra
+Fecha y hora: 16-11-2023
+Mensaje: *Actividades 08/11/2023*
+Ridery:
+  ☐ Resuelto crash cuando el driver posee datos inconsistentes.
+  ☐ scheduled trip fixes.
+
+*Actividades 09/11/2023*
+Ridery:
+  ☐ PRS1-6009 PRS1-6033.
+  ☐ PRS1-6004 surge bugfix.
+  ☐ PRS1-5757 map markers.
+
+*Actividades 10/11/2023*
+Ridery:
+  ☐ lottie animation for searching driver.
+
+*Actividades 13/11/2023*
+Ridery:
+  ☐ PRS1-5852 handling messages from Booking module.
+  ☐ PRS1-6096 fixed towing dialog info.
+  ☐ Merge branch 'sim/feature/polls' into feature/release_sprint_14.
+
+
+*Actividades 14/11/2023*
+Ridery:
+  ☐ PRS1-6085 updated destination icons.
+  ☐ PRS1-6085 scheduled trip visual fix.
+  ☐ citytype selection bugfix.
+  ☐ towing price fix.
+Ticketmundo:
+  ☐ Actualizada información de throttling y reserva con Redis en el API de Reservas.
+
+*Actividades 15/11/2023*
+Ridery:
+  ☐ Fix Euro issues.
+  ☐ Splash updates and testing.
+  ☐ Scheduled trip notification testing.
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15/11/23
+Don Demand POS
+Wireframes alta fidelidad para el módulo de finanzas: estado de resultados y turnos de caja.
+También para el módulo de acceso: Puestos y sucursales
+
+Nombre: José Daniel Gómez
+Fecha y hora: 16-11-2023
+Mensaje: ```
+# 15-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-6091, PRS1-6083, PRS1-6022
+
+```
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15-11-2023
+Dondemand Marketplace
+- Consumir endpoint para listar flotas por servicesSuplierId
+- Trabajar estilos de card de flota y modal para crear nueva flota
+
+OneLimo
+- Apoyo a Leo para resolver un problema al registrar un nuevo affiliate (no se esta mostrando en pantalla aun cuando el dato si se guarda en la base de datos) aun por corregir
+- Buscar acciones donde se envian correos para validar que no se envien a usuarios reales del sistema.
+
+Nombre: Maria Ortiz
+Fecha y hora: 16-11-2023
+Mensaje: Yo imagino que ayer solo trabajó Iliannis
+@all
+
+Nombre: iliannis Pereda
+Fecha y hora: 16-11-2023
+Mensaje: Buenas tardes. Actividades del 15/11/2023
+-Onelimo: Reporte de bugs
+-Zupper app: Imagenes Hato
+-Playpen web: Revisión surveys, reporte de bugs
+
+Nombre: Pedro Parra
+Fecha y hora: 16-11-2023
+Mensaje: *Actividades 08/11/2023*
+Ridery:
+  ☐ Resuelto crash cuando el driver posee datos inconsistentes.
+  ☐ scheduled trip fixes.
+
+*Actividades 09/11/2023*
+Ridery:
+  ☐ PRS1-6009 PRS1-6033.
+  ☐ PRS1-6004 surge bugfix.
+  ☐ PRS1-5757 map markers.
+
+*Actividades 10/11/2023*
+Ridery:
+  ☐ lottie animation for searching driver.
+
+*Actividades 13/11/2023*
+Ridery:
+  ☐ PRS1-5852 handling messages from Booking module.
+  ☐ PRS1-6096 fixed towing dialog info.
+  ☐ Merge branch 'sim/feature/polls' into feature/release_sprint_14.
+
+
+*Actividades 14/11/2023*
+Ridery:
+  ☐ PRS1-6085 updated destination icons.
+  ☐ PRS1-6085 scheduled trip visual fix.
+  ☐ citytype selection bugfix.
+  ☐ towing price fix.
+Ticketmundo:
+  ☐ Actualizada información de throttling y reserva con Redis en el API de Reservas.
+
+*Actividades 15/11/2023*
+Ridery:
+  ☐ Fix Euro issues.
+  ☐ Splash updates and testing.
+  ☐ Scheduled trip notification testing.
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15/11/23
+Don Demand POS
+Wireframes alta fidelidad para el módulo de finanzas: estado de resultados y turnos de caja.
+También para el módulo de acceso: Puestos y sucursales
+
+Nombre: José Daniel Gómez
+Fecha y hora: 16-11-2023
+Mensaje: ```
+# 15-11-2023
+
+### Ridery drivers
+- trabajar con los tickes: PRS1-6091, PRS1-6083, PRS1-6022
+
+```
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 16-11-2023
+Mensaje: Actividades 15-11-2023
+Dondemand Marketplace
+- Consumir endpoint para listar flotas por servicesSuplierId
+- Trabajar estilos de card de flota y modal para crear nueva flota
+
+OneLimo
+- Apoyo a Leo para resolver un problema al registrar un nuevo affiliate (no se esta mostrando en pantalla aun cuando el dato si se guarda en la base de datos) aun por corregir
+- Buscar acciones donde se envian correos para validar que no se envien a usuarios reales del sistema.
+
+Nombre: Maria Ortiz
+Fecha y hora: 16-11-2023
+Mensaje: Yo imagino que ayer solo trabajó Iliannis
+@all
+

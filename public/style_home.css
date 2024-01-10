@@ -1,57 +1,249 @@
+* {
+  font-family: "Roboto Mono", monospace;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f5f5f5;
+  background-color: #1d1a1a;
   margin: 0;
   padding: 0;
 }
 
 .container {
-  max-width: 500px;
-  margin: 50px auto;
-  background-color: #ffffff;
-  border-radius: 5px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+}
+
+.header_buttons {
+  background-color: #322d2d;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-end;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+.header_button {
+  background-color: #504a4a;
+  border: none;
+  color: white;
+  margin-left: 10px;
+  border-radius: 50%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.container_options {
+  min-width: 400px;
+  height: 100%;
+  background: linear-gradient(0deg, #211823 3.25%, #3e2a41 95.84%);
   padding: 20px;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  position: relative;
+  z-index: 2;
 }
 
 h1 {
-  text-align: center;
   margin-top: 0;
+  color: #ffffff;
 }
 
 h2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
   margin-top: 20px;
 }
 
+.label_date {
+  color: #ffffff;
+  font-size: 14px;
+}
+
 select,
-input[type="date"],
-button {
+input[type="date"] {
   display: block;
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   font-size: 16px;
-  border: 1px solid #ccc;
+  border: none;
   border-radius: 4px;
   box-sizing: border-box;
 }
 
-.button_common {
-  background-color: #4caf50;
-  color: #ffffff;
-  cursor: pointer;
+.button_container {
+  display: flex;
+  width: 100%;
 }
 
-.button_common:hover {
-  background-color: #45a049;
+.button_common {
+  background-color: white;
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  font-size: 12px;
+  flex: 1;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button_common:focus {
+  background-color: purple;
+  color: white;
+}
+
+.buttons_options {
+  position: absolute;
+  bottom: 20px;
+  display: flex;
+  width: 100%;
+  gap: 20px;
+  left: 0;
+  padding: 0 20px;
+}
+
+.button_preview {
+  background-color: #3e2a41;
+  color: white;
+  cursor: pointer;
+  border: none;
+  flex: 1;
+  padding: 10px 0;
 }
 
 .button_export {
-  background-color: #4162e4;
-  color: #ffffff;
+  background-color: #fff;
+  color: #211823;
   cursor: pointer;
+  border: none;
+  flex: 1;
+  padding: 10px 0;
 }
 
 .button_export:hover {
-  background-color: #2d52e5;
+  background-color: purple;
+  color: #fff;
+}
+
+.button_preview:hover {
+  background-color: purple;
+  color: #fff;
+}
+
+.messages_preview {
+  padding: 18px;
+  width: 100%;
+  margin-top: 66px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.message_container {
+  display: flex;
+  gap: 10px;
+}
+
+.name_date {
+  display: flex;
+  gap: 10px;
+}
+
+.message_name {
+  color: #fff;
+  font-weight: 700;
+}
+
+.message_date {
+  color: #796f6f;
+  font-weight: 400;
+}
+
+.message_preview {
+  color: #fff;
+
+  font-family: Roboto;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.avatar {
+  min-width: 50px;
+  height: 50px;
+  background-color: #ccc;
+  color: #fff;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.archive_name_list {
+  list-style: none;
+  margin: 14px;
+}
+
+.archive_name {
+  font-size: 16px;
+  color: #fff;
+  text-decoration: none;
+}
+
+.list_title {
+  font-size: 24px;
+  color: #fff;
+}
+
+.modes_menu--mostrar {
+  animation: desplegar 300ms ease forwards;
+  background: linear-gradient(0deg, #211823 3.25%, #3e2a41 95.84%);
+  top: 66px;
+  right: 0;
+  position: fixed;
+  width: 400px;
+  height: 100%;
+  overflow-y: auto;
+}
+
+.modes_menu--ocultar {
+  right: -400;
+  background: linear-gradient(0deg, #211823 3.25%, #3e2a41 95.84%);
+  top: 66px;
+  position: fixed;
+  width: 400px;
+  height: 100%;
+  overflow-y: auto;
+  animation: ocultar 300ms ease forwards;
+}
+
+.list_title {
+  text-align: center;
+}
+
+@keyframes desplegar {
+  from {
+    right: -400px;
+  }
+  to {
+    right: 0;
+  }
+}
+
+@keyframes ocultar {
+  from {
+    right: 0;
+  }
+  to {
+    right: -400px;
+  }
 }

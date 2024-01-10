@@ -111,9 +111,8 @@ app.get("/rc/export-group-messages", async (req, res) => {
 
 app.get("/export-list", async (req, res) => {
   const dirPath = path.resolve(`exports/`);
-  console.log(dirPath);
+
   const files = fs.readdirSync(dirPath);
-  console.log(files);
 
   return res.json(files);
 });

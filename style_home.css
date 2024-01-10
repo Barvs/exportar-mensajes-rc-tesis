@@ -213,7 +213,6 @@ input[type="date"] {
   width: 400px;
   height: 100%;
   overflow-y: auto;
-  /* transform: translate(700px, 0px); */
 }
 
 .modes_menu--ocultar {
@@ -225,7 +224,6 @@ input[type="date"] {
   height: 100%;
   overflow-y: auto;
   animation: ocultar 300ms ease forwards;
-  /* transform: translate(400px, 0px); */
 }
 
 .list_title {

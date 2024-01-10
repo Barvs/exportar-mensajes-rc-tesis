@@ -1,0 +1,316 @@
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 4-12-2023
+Mensaje: Actividades 01/12/23
+Zupper Market Place
+* Correcciones componentes UI Kit
+
+Nombre: Maria Ortiz
+Fecha y hora: 4-12-2023
+Mensaje: @all quienes faltan por enviar sus reportes, por favor hacerlo de una vez.
+
+Nombre: Pedro Parra
+Fecha y hora: 4-12-2023
+Mensaje: *Actividades 27/11/2023*
+Ridery:
+  ☐ PRS1-5735 Ajustes de mapa en Users.
+  ☐ PRS1-5736 Ajustes de mapa en Drivers.
+
+*Actividades 28/11/2023*
+Ridery:
+  ☐ PRS1-6135.
+  ☐ Implementado soporte de multi-paradas en google maps (dibujado simultáneo de rutas).
+  ☐ PRS1-6253 Corregida condición para mostrar diálogo de viaje asignado.
+  ☐ PRS1-5756 terminado mapa antes el viaje.
+  ☐ PRS1-5757 terminado mapa durante el viaje.
+  ☐ PRS1-6267 quitado sonido de cronómetro.
+
+*Actividades 29/11/2023*
+Ridery:
+  ☐ Viaje a Caracas.
+  ☐ Corrección de parámetros de responder viaje con la ruta completa.
+  ☐ Corregida condición de viaje programado asignado no siendo mostrado por el app.
+
+*Actividades 30/11/2023*
+Ridery:
+  ☐ Evento en Caracas
+
+*Actividades 01/12/2023*
+Ridery:
+  ☐ Viaje a Cumaná
+
+*Actividades 02/12/2023*
+Ridery:
+  ☐ Corrección de ticket PRS1-6329 loop al iniciar viaje programado.
+  ☐ Generadas Apks de Users y Drivers apuntando a Staging y Producción.
+
+Nombre: Pedro Parra
+Fecha y hora: 4-12-2023
+Mensaje: *Actividades 20/11/2023*
+Ridery:
+  ☐ PRS1-6132 Ocultar botón de cancelar viaje al buscar conductor.
+  ☐ Ajuste de márgenes de diálogo de grúas.
+  ☐ PRS1-6139 Ajustes visuales.
+  ☐ PRS1-6140 Ajustes de pin del mapa.
+  ☐ PRS1-6144 Ajustes en barra de direcciones.
+Zupper:
+  ☐ Ajuste de facturas del Hato.
+  ☐ Agregado campo cupon_id al endpoint de calcular checkout para facilitar los cálculos en iOS.
+
+*Actividades 21/11/2023*
+Ridery:
+  ☐ PRS1-6150 Preferencias de viajes programados.
+  ☐ PRS1-6153 Recordar selección de pago.
+  ☐ PRS1-6141 Mensajes de viaje programado.
+  ☐ PRS1-6142 Reinicio de direcciones en blanco.
+  ☐ Se quitó el warning de conductores cercanos cuando el viaje es programado.
+
+
+*Actividades 22/11/2023*
+Playpen:
+  ☐ Ajuste de Usuarios. Ahora los usuarios se crean con plan Free. Los Users Free no se cuentan en los reportes.
+Ridery:
+  ☐ PRS1-6150 Rework para desvincular texto de botones con la funcionalidad del mismo.
+  ☐ PRS1-6150 Corrección para direcciones favoritas.
+  ☐ PRS1-6147 Cambios de texto.
+  ☐ PRS1-6143 Ajustes visuales en Flotas.
+  ☐ PRS1-6191 Corrección de cuenta regresiva.
+  ☐ Agregado bottom sheet de viaje programado en envíos.
+
+*Actividades 23/11/2023*
+Playpen:
+  ☐ Agregada condición para listar usuarios por plan.
+Ridery:
+  ☐ PRS1-6134
+  ☐ PRS1-6140
+  ☐ PRS1-6142
+  ☐ PRS1-6147
+
+*Actividades 24/11/2023*
+Ridery:
+  ☐ PRS1-5917 correcciones en Bottom sheet.
+Zupper:
+  ☐ Ajuste de facturas del Hato.
+
+*Actividades 25/11/2023*
+Ridery:
+  ☐ Avances en PRS1-5757: mapa del conductor.
+  ☐ PRS1-5756: mapa antes del viaje
+
+Nombre: Pedro Parra
+Fecha y hora: 4-12-2023
+Mensaje: *Actividades 16/11/2023*
+Ridery:
+  ☐ PRS1-5917.
+  ☐ PRS1-6117 Diálogo de envíos.
+Zupper:
+  ☐ Removido BUSD como moneda de Binance. Se reemplazó por USDT.
+
+*Actividades 17/11/2023*
+Ridery:
+  ☐ PRS1-5141 Splash (Drivers).
+  ☐ PRS1-5142 Splash (Users).
+  ☐ PRS1-6117 Corrección de tema.
+Zupper:
+  ☐ Ajuste de facturas del Hato.
+
+Nombre: Leonardo Benavides
+Fecha y hora: 4-12-2023
+Mensaje: actividades 01-12-2023
+onelimo
+- Verificar que no se visualice "New affiliate" al seleccionar "Add new affiliate" desde affiliate list cuando previamente se visualizó la información de un affiliate
+- comenzar con el filtrado de registros de vendor list 
+
+otros
+- reportes TM
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 1-12-2023
+Mensaje: 01-12-23
+- Revisión de comercio Dulces caprichos
+- No disponible producto en el Hato Grill 
+- Cambio de banners 
+
+Hatos, dulces capichos, punto poke, al forno, chips a cookies
+
+30-11-23
+- Carga de productos Tequechongos en Karol G Shop 
+
+29-11-23
+- Arreglo de imágenes del Karol G Shop
+
+Nombre: iliannis Pereda
+Fecha y hora: 1-12-2023
+Mensaje: Buenas tardes. Actividades del 01/12/2023
+-Panel web: Revisión general, reporte de bugs
+
+Nombre: Daniel Azuaje
+Fecha y hora: 1-12-2023
+Mensaje: *Actividades de Teachlr desde Abril* @yolehg 
+
+*03 Abril 2023*
+Teachlr:
+- Se subio y se mando a revision Teachlr Organizaciones
+- Se subio y se mando a revision 90D
+- Se subio y se mando a revision Universidad Posible
+- Se subio y se mando a revision Banesco
+- Se subio y se mando a revision Momentos de Tora
+
+*05 Abril 2023*
+Teachlr:
+- Se implementó Universidad 3B
+
+*10 Abril 2023*
+Teachlr:
+- Se soluciono problema con los filtros en el perfil
+- Se agrego nuevo filtro en videoconferencias
+- Se termino videoconferencias grabadas
+
+*17 Abril 2023*
+Teachlr:
+- Se soluciono crash bug en el bio del perfil
+- Se actualizo escuela de Universidad 3B
+- Se agrego terminos y condiciones al inicio
+- Se agrego terminos y condiciones en los settings
+- Se agrego terminos y condiciones en el registro
+
+*28 Agosto 2023 *
+Teachlr:
+- Se agrego login con apple (se oculto porque en API aun no esta listo)
+- Se agrego el “intentar de nuevo” en las asignaciones
+
+*21 Septiembre 2023
+*Teachlr:
+- Se agregaron varios Strings en las localizaciones (variables de idiomas) que faltaban en la app
+- Se soluciono problema con los idiomas en settings que mostraba unavailable
+- Se solucion crash bug en los detalles de las carreras.
+
+*26 Octubre 2023*
+Teachlr:
+- Se agrego validacion para sacarte de session (logout) cuando el api recibe 401
+
+*31 Octubre 2023*
+Teachlr:
+- Se hicieron varios cambios en las asignaciones relacionado con el ultimo intento
+
+*01 Noviembre 2023*
+Teachlr:
+- Se agrego la posibilidad de reproducir las videoconferencias
+- Se soluciono problema con algunos tipos de Media (videos, fotos, audio) que no se estaban reproduciendo
+- Se soluciono problema con el botton de reproducir en las videoconferencias externas
+- Se agregaron 2 nuevas escuelas
+
+Nombre: Maria Fernanda Castillo
+Fecha y hora: 1-12-2023
+Mensaje: Actividades 27/11/23
+Zupper marketplace
+* Correcciones pantallas creadas anteriormente
+
+28/11/23
+* Creación de home, zupper marketplace
+
+29/11/23
+* Corrección pantallas de perfil de comercio de comida y tipo supermercado
+
+30/11/23
+* Dibujo para el home, referencia shutterstock
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 1-12-2023
+Mensaje: *Actividades 29-11-2023*
+Dondemand Marketplace
+- fix: Ajustes al editar el inventario de un producto
+- Ajustes en el modulo de flotas para hacer refresh de las flotas guardadas y actualizadas
+
+*Actividades 30-11-2023*
+Dondemand Marketplace
+- Agregar alertas en el crud de flotas
+- Tabajar accion para actualizar enabled, desde el checkbox (habiliado/deshabilitado) por cada card de flota.
+
+Nombre: Leonardo Benavides
+Fecha y hora: 1-12-2023
+Mensaje: actividades 30-11-2023
+onelimo:
+- resolver problema de affiliates que se duplicaban al mostrarse en la tabla affiliates y al seleccionar un afilliate para editar te salian los datos de cualquier otro affiliate
+otros:
+- reportes TM
+
+Nombre: iliannis Pereda
+Fecha y hora: 30-11-2023
+Mensaje: Buenas tardes. Actividades del 30/11/2023
+-Panel web: Revisión general, reporte de bugs
+
+Nombre: Leonardo Benavides
+Fecha y hora: 30-11-2023
+Mensaje: actividades 28-11-2023
+onelimo
+- ver porque los afilliates que no estan en la tabla rel_affiliates se ven en el sistema o hasta se repiten cuando no deberian
+
+actividades 29-11-2023
+- lo mismo de arriba
+
+Nombre: iliannis Pereda
+Fecha y hora: 29-11-2023
+Mensaje: Buenas tardes. Actividades del 29/11/2023
+-Panel web: Revisión general, reporte de bugs
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 29-11-2023
+Mensaje: Actividades 28-11-2023
+Dondemand marketplace
+- fix: Modificar componente select, para filtrar branch_group en formulario section
+- fix: Ajustes al Bloquear/Desbloquear cuenta
+- fix: Verificar que al editar un repartidor se guarden los cambios realizados
+
+Nombre: iliannis Pereda
+Fecha y hora: 28-11-2023
+Mensaje: Buenas tardes. Actividades del 28/11/2023
+-Panel web: Revisión general, reporte de bugs
+
+Nombre: Bernardo Velasquez
+Fecha y hora: 28-11-2023
+Mensaje: Actividades 28-11-23
+- Agregado ETA disponible empanadas  Boca express hasta las 11AM
+- Eliminada categoría Almuerzo de Andris 
+- Oculta categoría Promociones en Boca Express
+
+- Creado comercio Karol G SHop en Tm y cargado productos al comercio
+
+Actividades 27-11-23
+- Cambio de Banners en la mañana
+- Cambio de zupper opciones
+- Activada promo 50% descuento en hamburguesas martes
+- Activada promo de Susushi Martes a Jueves
+
+Nombre: José Daniel Gómez
+Fecha y hora: 28-11-2023
+Mensaje: ```
+# 27-11-2023
+
+### Ridery users
+- trabajar en los tickets: PRS1-6118, PRS1-6154 
+- resolver bug concerniente a programación de viaje
+- intentar replicar error de creacion de viaje concerniente a la confirmación de pickup 
+
+### Ridery drivers
+- trabajar en los tickets: PRS1-6249
+
+### Teachlr
+- pruebas de videos de videoconferencias
+```
+
+Nombre: Leonardo Benavides
+Fecha y hora: 28-11-2023
+Mensaje: actividades 23-11-2023
+onelimo
+- seguir trabajando con el listado de affiliates
+
+actividades 23-11-2023
+- lo mismo de arriba
+
+Nombre: Jose Eduardo Acuña
+Fecha y hora: 28-11-2023
+Mensaje: Actividades 24-11-2023
+Dondemand marketplace
+- fix: obtener flotas por  service_supplier_id al cargar la vista
+- Trabajar select de grupos de comercios
+
